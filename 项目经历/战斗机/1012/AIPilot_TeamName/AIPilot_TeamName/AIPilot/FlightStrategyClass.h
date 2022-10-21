@@ -8,13 +8,24 @@ public:
 	~FlightStrategyClass();
 	/*
 	brief 盘旋飞行策略
-	param	rudder		参数1：脚蹬位移[-1,1]
-	param	stickLon	参数2：纵向杆位移[-1,1]
-	return	void
 	*/
 	AIPilotOutput* Hover(AIPilotInput *input);
+	/*
+	brief 追踪策略
+	*/
 	AIPilotOutput* Track(AIPilotInput *input);
 private:
+	/*
+	brief 开火策略
+	*/
 	void FireStratgy(AIPilotInput * input);
+	/*
+	brief 雷达扫描策略
+	*/
+	void RadderScan(AIPilotInput * input);
+	/*
+	brief 生成追踪目标且不丢失条件下的值（仅在视距内可用）
+	*/
+	void Internal(AIPilotInput * input)
 };
 
