@@ -167,6 +167,7 @@
   <ItemGroup>
     <ClCompile Include="AIPilot_XXX.cpp" />
     <ClCompile Include="CreateAndRelease.cpp" />
+    <ClCompile Include="FlightParaDataClass.cpp" />
     <ClCompile Include="FlightStrategyClass.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -174,6 +175,7 @@
     <ClInclude Include="AIPilot_XXX.h" />
     <ClInclude Include="AI_Interface.h" />
     <ClInclude Include="CreateAndRelease.h" />
+    <ClInclude Include="FlightParaDataClass.h" />
     <ClInclude Include="FlightStrategyClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

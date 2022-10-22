@@ -13,8 +13,8 @@ AIPilot_TeamName::~AIPilot_TeamName(void)
 {
 	// 资源释放
 	// 关闭socket
-	closesocket(sockClient);
-	WSACleanup();
+	//closesocket(sockClient);
+	//WSACleanup();
 	// 关闭文件句柄
 	fout.close();
 }
@@ -356,23 +356,12 @@ bool AIPilot_TeamName::Step()
 	
 
 	/////////////////////////////////////////////////////////////////////////////
-	//memcpy(&m_Output.m_FlyCtrlCmd, recvBuf, 16);
-	m_Output.m_FlyCtrlCmd.m_fStickLat	= -0.5f;
-	m_Output.m_FlyCtrlCmd.m_fStickLon	= 0.0f;
-	m_Output.m_FlyCtrlCmd.m_fThrottle	= 0.0f;
-	m_Output.m_FlyCtrlCmd.m_fRudder		= 0.0f;
-
-
-	//m_Output.m_FCCtrlCmd.m_eMainTaskMode= Enum_AircraftTaskMode_WVR;
-	m_Output.m_FCCtrlCmd.m_eMainTaskMode = Enum_AircraftTaskMode_BVR;
-	m_Output.m_RadarCtrlCmd.m_eRadarOnOff = Enum_RadarOnOff_ON;
-	//m_Output.m_RadarCtrlCmd.m_eRadarOnOff = Enum_RadarOnOff_OFF;
-	m_Output.m_RadarCtrlCmd.m_fEleScanCent = 0;
-	m_Output.m_RadarCtrlCmd.m_eEleScanLine	= Enum_RadarEleScanLine_4;
-	m_Output.m_RadarCtrlCmd.m_eAziScanRange	= Enum_RadarAziScanRange_60;
-
+	//m_Output = m_strategy.Track(&m_Input);
+	m_strategy.JustifyPose(&m_Input);
+	//m_Output = m_strategy.LevelOff(&m_Input,FlightStrategyClass::KeepEnergy);
 	if(m_Input.m_FCInfo.m_bWeaponReady)
 		m_Output.m_WeaponCtrlCmd.m_bWeaponLaunch= true;
+
 	//m_Output.m_WeaponCtrlCmd.m_bWeaponLaunch = false;
 	/////////////////////////////////////////////////////////////////////////////
 	// 态势信息写入到acmi

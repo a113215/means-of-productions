@@ -24,6 +24,9 @@
     <ClCompile Include="FlightStrategyClass.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="FlightParaDataClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AIPilot.h">
@@ -39,6 +42,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="FlightStrategyClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlightParaDataClass.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

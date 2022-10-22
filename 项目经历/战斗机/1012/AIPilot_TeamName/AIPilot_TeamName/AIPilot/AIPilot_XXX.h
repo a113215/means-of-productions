@@ -5,7 +5,7 @@
 #include <fstream>
 #include <iostream>
 #include <io.h>
-
+#include"FlightStrategyClass.h"
 #pragma comment(lib,"ws2_32.lib")
 #pragma warning(disable:4996)
 
@@ -131,4 +131,6 @@ public:
 
 	// 红蓝方标志
 	Enum_AircraftIff m_eIFF;
+
+	FlightStrategyClass m_strategy;
 };
