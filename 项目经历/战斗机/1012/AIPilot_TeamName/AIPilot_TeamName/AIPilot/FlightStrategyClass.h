@@ -26,10 +26,11 @@ public:
 	*/
 	AIPilotOutput Track(const AIPilotInput *input);
 	/*
-		brief 保持平稳高度飞行下，改变飞机姿态至侧滑角未0攻角0
+		brief 保持平稳高度飞行下，改变飞机姿态至侧滑角为0攻角0
 	*/
-	void JustifyPose(const AIPilotInput * input);
+	AIPilotOutput JustifyPose(const AIPilotInput * input);
 private:
+	//原子策略
 	/*
 	brief 开火策略
 	*/
@@ -38,7 +39,12 @@ private:
 	brief 雷达扫描策略
 	*/
 	void RadderScan(const AIPilotInput * input);
-
+	/*
+	brief 不加速飞行
+	param
+		input 输入参数
+	*/
+	AIPilotOutput LevelThrottle(const AIPilotInput * input);
 	AIPilotInput *m_limitOutput;
 	FlightParaDataClass m_data;
 };

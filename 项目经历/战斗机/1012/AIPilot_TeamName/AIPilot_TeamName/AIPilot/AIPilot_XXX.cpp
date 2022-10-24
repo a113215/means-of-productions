@@ -356,8 +356,8 @@ bool AIPilot_TeamName::Step()
 	
 
 	/////////////////////////////////////////////////////////////////////////////
-	//m_Output = m_strategy.Track(&m_Input);
-	m_strategy.JustifyPose(&m_Input);
+	m_Output = m_strategy.Track(&m_Input);
+	//m_Output =  m_strategy.JustifyPose(&m_Input);
 	//m_Output = m_strategy.LevelOff(&m_Input,FlightStrategyClass::KeepEnergy);
 	if(m_Input.m_FCInfo.m_bWeaponReady)
 		m_Output.m_WeaponCtrlCmd.m_bWeaponLaunch= true;

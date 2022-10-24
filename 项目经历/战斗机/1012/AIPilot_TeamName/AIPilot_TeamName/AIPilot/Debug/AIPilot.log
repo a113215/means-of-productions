@@ -1,4 +1,4 @@
-﻿生成启动时间为 2022/10/22 19:14:18。
+﻿生成启动时间为 2022/10/23 20:44:28。
      1>项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”在节点 2 上(Build 个目标)。
      1>正在使用工具版本“15.0”进行生成。
        由于条件的计算结果为 false，已跳过目标“EnableIntermediateOutputPathMismatchWarning”；('$(RestoreProjectStyle)' == 'PackageReference')的计算结果为('' == 'PackageReference')。
@@ -22,10 +22,10 @@
      1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.DesignTime.targets”中的目标“SetTelemetryEnvironmentVariables”(目标“Build”依赖于它):
        正在使用程序集“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll”中的“SetEnv”任务。
        任务“SetEnv”
-         VSTEL_SolutionSessionID={F7CBC012-7997-444F-A528-60F8D6D670FB}
+         VSTEL_SolutionSessionID={49A38027-A958-462A-8847-9C5FCBE1A2E0}
        已完成执行任务“SetEnv”的操作。
        任务“SetEnv”
-         VSTEL_CurrentSolutionBuildID=814100937
+         VSTEL_CurrentSolutionBuildID=905911093
        已完成执行任务“SetEnv”的操作。
        任务“SetEnv”
          VSTEL_ProjectID={4961F175-642D-4B36-AB72-9699CC90AFA7}
@@ -290,33 +290,20 @@
          	D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\CREATEANDRELEASE.OBJ
          	D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTPARADATACLASS.OBJ
          	D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTSTRATEGYCLASS.OBJ
-         将编译 FlightStrategyClass.cpp，因为在 2022/10/22 19:14:15 处修改了 D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\FlightStrategyClass.cpp。
+         将编译 FlightStrategyClass.cpp，因为在 2022/10/23 20:44:26 处修改了 D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\FlightStrategyClass.cpp。
          传递给工具的环境变量为:
-           VS_UNICODE_OUTPUT=1292
+           VS_UNICODE_OUTPUT=2068
          C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /nologo /W3 /WX- /diagnostics:classic /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D AIPILOT_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt FlightStrategyClass.cpp
          跟踪命令:
-         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\Debug\AIPilot_TeamName.tlog" /r "D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\FLIGHTSTRATEGYCLASS.CPP" /b MSBuildConsole_CancelEventcacc8ae18369436caaf3895dee3f900d  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe"  /c /ZI /nologo /W3 /WX- /diagnostics:classic /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D AIPILOT_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt FlightStrategyClass.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\Debug\AIPilot_TeamName.tlog" /r "D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\FLIGHTSTRATEGYCLASS.CPP" /b MSBuildConsole_CancelEvent74f244e7eacb48b8915735fd67f72c70  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe"  /c /ZI /nologo /W3 /WX- /diagnostics:classic /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D AIPILOT_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt FlightStrategyClass.cpp
      1>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
          FlightStrategyClass.cpp
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(29): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(30): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(38): warning C4305: “=”: 从“double”到“float”截断
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(43): warning C4305: “=”: 从“double”到“float”截断
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(51): warning C4305: “=”: 从“double”到“float”截断
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(53): warning C4305: “=”: 从“double”到“float”截断
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(76): warning C4305: “=”: 从“double”到“float”截断
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(78): warning C4305: “=”: 从“double”到“float”截断
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(86): warning C4305: “=”: 从“double”到“float”截断
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(88): warning C4305: “=”: 从“double”到“float”截断
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(95): warning C4305: “+=”: 从“double”到“float”截断
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(118): warning C4305: “=”: 从“double”到“float”截断
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(120): warning C4305: “=”: 从“double”到“float”截断
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(125): warning C4305: “=”: 从“double”到“float”截断
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(127): warning C4305: “=”: 从“double”到“float”截断
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(132): warning C4305: “=”: 从“double”到“float”截断
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(134): warning C4305: “=”: 从“double”到“float”截断
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(140): warning C4305: “+=”: 从“double”到“float”截断
-     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(142): warning C4305: “-=”: 从“double”到“float”截断
+     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.h(5): warning C4005: “ERRORRANGE”: 宏重定义
+         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightparadataclass.h(7): note: 参见“ERRORRANGE”的前一个定义
+     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(73): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(74): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(75): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(157): warning C4305: “+=”: 从“double”到“float”截断
        已完成执行任务“CL”的操作。
      1>已完成在项目“AIPilot.vcxproj”中生成目标“ClCompile”的操作。
        由于条件的计算结果为 false，已跳过目标“RunSelectedFileNativeCodeAnalysis”；('$(RunCppAnalysis)'=='true' and '$(SelectedFiles)'!='')的计算结果为('false'=='true' and ''!='')。
@@ -465,13 +452,13 @@
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UCRT\X86\UCRTD.LIB
          需要编译源: 输入 D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTSTRATEGYCLASS.OBJ 比输出 D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\AIPILOT_TEAMNAME.PDB 新。
          传递给工具的环境变量为:
-           VS_UNICODE_OUTPUT=1776
+           VS_UNICODE_OUTPUT=2064
          C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\AIPilot_TeamName.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\AIPilot_TeamName.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\AIPilot_TeamName.lib" /MACHINE:X86 /SAFESEH /DLL Debug\AIPilot_XXX.obj
          Debug\CreateAndRelease.obj
          Debug\FlightParaDataClass.obj
          Debug\FlightStrategyClass.obj
          跟踪命令:
-         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\Debug\AIPilot_TeamName.tlog" /r "D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\AIPILOT_XXX.OBJ|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\CREATEANDRELEASE.OBJ|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTPARADATACLASS.OBJ|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTSTRATEGYCLASS.OBJ" /b MSBuildConsole_CancelEvent396021bce0e7440093f59662d3f9f8ad  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:".\Debug\AIPilot_TeamName.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\AIPilot_TeamName.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\AIPilot_TeamName.lib" /MACHINE:X86 /SAFESEH /DLL Debug\AIPilot_XXX.obj
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\Debug\AIPilot_TeamName.tlog" /r "D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\AIPILOT_XXX.OBJ|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\CREATEANDRELEASE.OBJ|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTPARADATACLASS.OBJ|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTSTRATEGYCLASS.OBJ" /b MSBuildConsole_CancelEvent895595480db144c889b1b658bfe8c70e  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:".\Debug\AIPilot_TeamName.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\AIPilot_TeamName.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\AIPilot_TeamName.lib" /MACHINE:X86 /SAFESEH /DLL Debug\AIPilot_XXX.obj
          Debug\CreateAndRelease.obj
          Debug\FlightParaDataClass.obj
          Debug\FlightStrategyClass.obj
@@ -623,27 +610,13 @@
        “D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”(Build 目标) (1) ->
        (ClCompile 目标) -> 
          cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(29): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(30): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(38): warning C4305: “=”: 从“double”到“float”截断
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(43): warning C4305: “=”: 从“double”到“float”截断
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(51): warning C4305: “=”: 从“double”到“float”截断
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(53): warning C4305: “=”: 从“double”到“float”截断
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(76): warning C4305: “=”: 从“double”到“float”截断
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(78): warning C4305: “=”: 从“double”到“float”截断
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(86): warning C4305: “=”: 从“double”到“float”截断
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(88): warning C4305: “=”: 从“double”到“float”截断
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(95): warning C4305: “+=”: 从“double”到“float”截断
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(118): warning C4305: “=”: 从“double”到“float”截断
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(120): warning C4305: “=”: 从“double”到“float”截断
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(125): warning C4305: “=”: 从“double”到“float”截断
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(127): warning C4305: “=”: 从“double”到“float”截断
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(132): warning C4305: “=”: 从“double”到“float”截断
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(134): warning C4305: “=”: 从“double”到“float”截断
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(140): warning C4305: “+=”: 从“double”到“float”截断
-         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(142): warning C4305: “-=”: 从“double”到“float”截断
+         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.h(5): warning C4005: “ERRORRANGE”: 宏重定义
+         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(73): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(74): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(75): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(157): warning C4305: “+=”: 从“double”到“float”截断
 
-    21 个警告
+    7 个警告
     0 个错误
 
-已用时间 00:00:00.72
+已用时间 00:00:01.06
