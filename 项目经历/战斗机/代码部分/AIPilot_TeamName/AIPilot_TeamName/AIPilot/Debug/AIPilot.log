@@ -1,0 +1,622 @@
+﻿生成启动时间为 2022/10/23 20:44:28。
+     1>项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”在节点 2 上(Build 个目标)。
+     1>正在使用工具版本“15.0”进行生成。
+       由于条件的计算结果为 false，已跳过目标“EnableIntermediateOutputPathMismatchWarning”；('$(RestoreProjectStyle)' == 'PackageReference')的计算结果为('' == 'PackageReference')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“_CheckForInvalidConfigurationAndPlatform”(目标“SetTelemetryEnvironmentVariables”依赖于它):
+       由于 false 条件，已跳过任务“Error”；( '$(_InvalidConfigurationError)' == 'true' )计算为( '' == 'true' )。
+       由于 false 条件，已跳过任务“Warning”；( '$(_InvalidConfigurationWarning)' == 'true' )计算为( '' == 'true' )。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Message”任务。
+       任务“Message”
+         Configuration=Debug
+       已完成执行任务“Message”的操作。
+       任务“Message”
+         Platform=Win32
+       已完成执行任务“Message”的操作。
+       由于 false 条件，已跳过任务“Error”；('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)'))计算为('.\Debug\' != '' and !HasTrailingSlash('.\Debug\'))。
+       由于 false 条件，已跳过任务“Error”；('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)'))计算为('obj\' != '' and !HasTrailingSlash('obj\'))。
+       由于 false 条件，已跳过任务“Error”；('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)'))计算为('Debug\' != '' and !HasTrailingSlash('Debug\'))。
+       由于 false 条件，已跳过任务“Error”；( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' )计算为( 'D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\obj\' != '' And 'D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\obj\' != 'D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\obj\' )。
+       由于 false 条件，已跳过任务“Warning”；( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' )计算为( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\obj\' )。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_CheckForInvalidConfigurationAndPlatform”的操作。
+       已跳过目标“_CheckForInvalidConfigurationAndPlatform”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.DesignTime.targets”中的目标“SetTelemetryEnvironmentVariables”(目标“Build”依赖于它):
+       正在使用程序集“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll”中的“SetEnv”任务。
+       任务“SetEnv”
+         VSTEL_SolutionSessionID={49A38027-A958-462A-8847-9C5FCBE1A2E0}
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         VSTEL_CurrentSolutionBuildID=905911093
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         VSTEL_ProjectID={4961F175-642D-4B36-AB72-9699CC90AFA7}
+       已完成执行任务“SetEnv”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“SetTelemetryEnvironmentVariables”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets”中的目标“_PrepareForBuild”(目标“Build”依赖于它):
+       由于 false 条件，已跳过任务“CreateItem”；('%(CustomBuild.IncludeFileToTool)'!='')计算为(''!='')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_PrepareForBuild”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_PrepareForReferenceResolution”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('$(_REFERENCE_DEBUG)'=='true')计算为(''=='true')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_PrepareForReferenceResolution”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('AIPilot_XXX.cpp;CreateAndRelease.cpp;FlightParaDataClass.cpp;FlightStrategyClass.cpp'!='' and 'false'=='true' and '' != 'false')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“BeforeResolveReferences”(目标“ResolveReferences”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“BeforeResolveReferences”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“AssignProjectConfiguration”(目标“ResolveReferences”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“AssignProjectConfiguration”任务。
+       任务“AssignProjectConfiguration”
+       已完成执行任务“AssignProjectConfiguration”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“AssignProjectConfiguration”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“_SplitProjectReferencesByFileExistence”(目标“PrepareProjectReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveNonMSBuildProjectOutput”；('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='')计算为('true'=='true' and ''!='')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_SplitProjectReferencesByFileExistence”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“_GetProjectReferenceTargetFrameworkProperties”(目标“PrepareProjectReferences”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“MSBuild”任务。
+       任务“MSBuild”
+       已完成执行任务“MSBuild”的操作。
+       由于 false 条件，已跳过任务“GetReferenceNearestTargetFrameworkTask”；('@(_ProjectReferenceTargetFrameworkPossibilities->Count())' != '0' and '$(ReferringTargetFrameworkForProjectReferences)' != '')计算为('0' != '0' and '.NETFramework,Version=v4.0' != '')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_GetProjectReferenceTargetFrameworkProperties”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“PrepareProjectReferences”(目标“ResolveProjectReferences”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“PrepareProjectReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“_RemoveNameMetadataFromProjectReferenceItems”；('@(ProjectReference)'!='')的计算结果为(''!='')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“ResolveProjectReferences”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' != '10.0' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' == '10.0' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and 'true' == 'true' and '' != '')。
+       由于 false 条件，已跳过任务“Warning”；('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '')计算为('' != '' and '' != '')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ResolveProjectReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“FindInvalidProjectReferences”；('$(FindInvalidProjectReferences)' == 'true')的计算结果为('' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“ResolveNativeReferences”；('@(NativeReference)'!='')的计算结果为(''!='')。
+       已跳过目标“_PrepareForReferenceResolution”。以前的生成已成功。
+       已跳过目标“ResolveProjectReferences”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“FindInvalidProjectReferences”；('$(FindInvalidProjectReferences)' == 'true')的计算结果为('' == 'true')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets”中的目标“GetFrameworkPaths”(目标“ResolveAssemblyReferences”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“GetFrameworkPaths”的操作。
+       已跳过目标“_PrepareForReferenceResolution”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“GetWinFXPath”；(('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' ))的计算结果为(('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' ))。
+       已跳过目标“GetFrameworkPaths”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“GetReferenceAssemblyPaths”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetReferenceAssemblyPaths”；('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == ''))计算为('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == ''))。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“GetReferenceAssemblyPaths”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Current.targets”中的目标“SetBuildDefaultEnvironmentVariables”(目标“PrepareForBuild”依赖于它):
+       任务“SetEnv”
+         PATH=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86;C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Windows\SysWow64;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\ProgramFiles\QT\QtForAndroid\android-sdk;C:\Program Files (x86)\dotnet\;D:\ProgramFiles\QT\Qt5.12.3\Tools\mingw730_64\bin;C:\Program Files\CMake\bin;C:\Program Files\Git\cmd;;C:\Program Files\Git LFS;C:\Users\22520\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\22520\AppData\Local\Programs\Python\Python36\;C:\Users\22520\AppData\Local\Microsoft\WindowsApps;
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         LIB=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\atlmfc\lib\x86;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Auxiliary\VS\lib\x86;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x86;;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Auxiliary\VS\UnitTest\lib;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x86;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Lib\um\x86
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         LIBPATH=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\atlmfc\lib\x86;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86;
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\atlmfc\include;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt;;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Auxiliary\VS\UnitTest\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;
+       已完成执行任务“SetEnv”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“SetBuildDefaultEnvironmentVariables”的操作。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true')的计算结果为('' != '' and '' != 'true')。
+       已跳过目标“_PrepareForReferenceResolution”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“GetResolvedWinMD”(目标“PrepareForBuild”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“GetResolvedWinMD”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets”中的目标“PlatformPrepareForBuild”(目标“PrepareForBuild”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('$(_Error64bitToolsNotInstalled)' == 'true')计算为('' == 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == '')计算为(''!='true' and 'true' != 'true' and 'v141' == '')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v110')计算为(''!='true' and 'true' != 'true' and 'v141' == 'v110')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v100')计算为(''!='true' and 'true' != 'true' and 'v141' == 'v100')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v90')计算为(''!='true' and 'true' != 'true' and 'v141' == 'v90')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100' and '$(PlatformToolset)' != 'v110')计算为(''!='true' and 'true' != 'true' and 'v141' != 'v90' and 'v141' != 'v100' and 'v141' != 'v110')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“PlatformPrepareForBuild”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.targets”中的目标“_CheckWindowsSDKInstalled”(目标“PrepareForBuild”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('$(WindowsSDKInstalled)' != 'true')计算为('true' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(WindowsAppContainer)' != 'true' and '$(WindowsSDK_Desktop_Support)' != true)计算为('false' != 'true' and 'true' != true)。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_CheckWindowsSDKInstalled”的操作。
+       已跳过目标“GetFrameworkPaths”。以前的生成已成功。
+       已跳过目标“GetReferenceAssemblyPaths”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“AssignLinkMetadata”；( '$(SynthesizeLinkMetadata)' == 'true' )的计算结果为( '' == 'true' )。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets”中的目标“SetCABuildNativeEnvironmentVariables”(目标“PrepareForBuild”依赖于它):
+       任务“SetEnv”
+         CAExcludePath=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;
+       已完成执行任务“SetEnv”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“SetCABuildNativeEnvironmentVariables”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“PrepareForBuild”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true')计算为('' != 'true' and 'true' != 'true')。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“MakeDir”任务。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary')计算为(''!='true' and 'false'=='true' and 'DynamicLibrary'!='Application' and 'DynamicLibrary'!='DynamicLibrary' and 'DynamicLibrary'!='StaticLibrary')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and ('$(TargetFrameworkVersion)'=='v3.5' or '$(TargetFrameworkVersion)'=='v3.0' or '$(TargetFrameworkVersion)'=='v2.0' ))计算为(''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\'=='' and '' != 'true' and ('v4.0'=='v3.5' or 'v4.0'=='v3.0' or 'v4.0'=='v2.0' ))。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90')计算为(''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\'=='' and '' != 'true' and 'v141'=='v90')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true')计算为(''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\'=='' and '' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true')计算为(''!='true' and 'C:\Program Files (x86)\Windows Kits\10\'=='' and '' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(IntDirTrailingSlashWarning)'=='true')计算为(''!='true' and ''=='true')。
+       正在使用程序集“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll”中的“VCMessage”任务。
+       任务“VCMessage”
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+       已完成执行任务“VCMessage”的操作。
+       由于 false 条件，已跳过任务“VCMessage”；('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true')计算为('' != '' and ''!='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(IgnoreWarnIntDirSharingDetected)' != 'true' and '$(IntDirSharingDetected)' == 'true')计算为('' != 'true' and '' == 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(_IntDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_IntDirFullpath.StartsWith($(Temp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Temp), true, null))' == 'true'))计算为(''!='true' and '' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true'))。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)' != 'true' and '$(SpectreMitigation)' != '' and '$(SpectreMitigation)' != 'false' and (('$(_VC_Target_Library_Platform)' == 'OneCore' and !Exists('$(VC_LibraryPath_VC_x86_OneCore)')) or ('$(_VC_Target_Library_Platform)' == 'Desktop' and !Exists('$(VC_LibraryPath_VC_x86_Desktop)'))))计算为('' != 'true' and 'false' != '' and 'false' != 'false' and (('Desktop' == 'OneCore' and !Exists('C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\onecore\x86')) or ('Desktop' == 'Desktop' and !Exists('C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86'))))。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“PrepareForBuild”的操作。
+       已跳过目标“_PrepareForReferenceResolution”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('AIPilot_XXX.cpp;CreateAndRelease.cpp;FlightParaDataClass.cpp;FlightStrategyClass.cpp'!='' and 'false'=='true' and '' != 'false')。
+       由于条件的计算结果为 false，已跳过目标“GetInstalledSDKLocations”；('@(SDKReference)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“ResolveSDKReferences”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveSDKReference”；('@(SDKReference)'!='')计算为(''!='')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ResolveSDKReferences”的操作。
+       已跳过目标“ResolveSDKReferences”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“ExpandSDKReferences”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetSDKReferenceFiles”；('@(ResolvedSDKReference)'!='')计算为(''!='')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ExpandSDKReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResolveNuGetPackageAssets”；('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)'))的计算结果为('true' == 'true' and exists('obj\project.assets.json'))。
+       由于条件的计算结果为 false，已跳过目标“ImplicitlyExpandNETStandardFacades”；('$(ImplicitlyExpandNETStandardFacades)' == 'true')的计算结果为('' == 'true')。
+       已跳过目标“GetReferenceAssemblyPaths”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“ImplicitlyExpandNETStandardFacades”；('$(ImplicitlyExpandNETStandardFacades)' == 'true')的计算结果为('' == 'true')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets”中的目标“_HandlePackageFileConflicts”(目标“ResolveAssemblyReferences”依赖于它):
+       正在使用程序集“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\tools\net46\Microsoft.NET.Build.Extensions.Tasks.dll”中的“ResolvePackageFileConflicts”任务。
+       任务“ResolvePackageFileConflicts”
+       已完成执行任务“ResolvePackageFileConflicts”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_HandlePackageFileConflicts”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“ResolveAssemblyReferences”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveAssemblyReference”；('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '')计算为(''!='' or ''!='' or '' != '')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ResolveAssemblyReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“GenerateBindingRedirects”；('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true')的计算结果为('' == 'true' and '' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“_RemoveZipFileSuggestedRedirect”；('$(_TargetFrameworkVersionWithoutV)' >= '4.7.1' And '$(AllowZipFileRedirect)' != 'true')的计算结果为('4.0' >= '4.7.1' And '' != 'true')。
+       由于条件的计算结果为 false，已跳过目标“GenerateBindingRedirectsUpdateAppConfig”；('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)'))的计算结果为('' == 'true' and '' == 'true' and Exists('Debug\AIPilot_TeamName.dll.config'))。
+       由于条件的计算结果为 false，已跳过目标“ResolveComReferences”；('@(COMReference)'!='' or '@(COMFileReference)'!='')的计算结果为(''!='' or ''!='')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“AfterResolveReferences”(目标“ResolveReferences”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“AfterResolveReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ImplicitlyExpandDesignTimeFacades”；('$(ImplicitlyExpandDesignTimeFacades)' == 'true')的计算结果为('' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“ResolveTestReferences”；('@(Shadow)'!='')的计算结果为(''!='')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“ResolveReferences”(目标“Build”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ResolveReferences”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“InitializeBuildStatus”(目标“Build”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“ReadLinesFromFile”任务。
+       任务“ReadLinesFromFile”
+       已完成执行任务“ReadLinesFromFile”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“WriteLinesToFile”任务。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Touch”任务。
+       任务“Touch”
+         正在创建“Debug\AIPilot_TeamName.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       已完成执行任务“Touch”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“InitializeBuildStatus”的操作。
+       已跳过目标“PrepareProjectReferences”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“BuildGenerateSourcesTraverse”(目标“BuildGenerateSources”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != '' and '' == 'true')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“BuildGenerateSourcesTraverse”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets”中的目标“BeforeBuildGenerateSources”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“BeforeBuildGenerateSources”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets”中的目标“PreBuildEvent”(目标“_BuildGenerateSourcesAction”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '')计算为('' != '' and '' != '')。
+       由于 false 条件，已跳过任务“Exec”；('%(PreBuildEvent.Command)' != '')计算为('' != '')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“PreBuildEvent”的操作。
+       由于条件的计算结果为 false，已跳过目标“CustomBuild”；('@(CustomBuild)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“FxExport”；('@(FxCompile)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“FxCompile”；('@(FxCompile)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“_CreateCopyFileItems”；('@(CopyFileToFolders)' != '')的计算结果为('' != '')。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“InitializeBuildStatus”。以前的生成已成功。
+       已跳过目标“SetBuildDefaultEnvironmentVariables”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true')的计算结果为('' != '' and '' != 'true')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_SelectedFiles”(目标“CopyFileToFolders”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_SelectedFiles”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets”中的目标“CopyFileToFolders”(目标“_BuildGenerateSourcesAction”依赖于它):
+       正在使用程序集“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll”中的“GetOutOfDateItems”任务。
+       任务“GetOutOfDateItems”
+       已完成执行任务“GetOutOfDateItems”的操作。
+       由于 false 条件，已跳过任务“Copy”；('@(_OutOfDateCopyFile)' != '')计算为('' != '')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“CopyFileToFolders”的操作。
+       由于条件的计算结果为 false，已跳过目标“Xsd”；('@(Xsd)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_Xsd”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_Xsd”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“MakeDirsForMidl”(目标“_Midl”依赖于它):
+       任务“Makedir”
+       已完成执行任务“Makedir”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“MakeDirsForMidl”的操作。
+       由于条件的计算结果为 false，已跳过目标“Midl”；('@(Midl)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“CustomBuild”；('@(CustomBuild)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“FxExport”；('@(FxCompile)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“FxCompile”；('@(FxCompile)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“ComputeMIDLGeneratedCompileInputs”(目标“_Midl”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ComputeMIDLGeneratedCompileInputs”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“AfterMidl”(目标“_Midl”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“AfterMidl”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_Midl”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_Midl”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets”中的目标“AfterBuildGenerateSources”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“AfterBuildGenerateSources”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“AfterBuildGenerateSourcesEvent”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“AfterBuildGenerateSourcesEvent”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_BuildGenerateSourcesAction”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_BuildGenerateSourcesAction”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“BuildGenerateSources”(目标“Build”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“BuildGenerateSources”的操作。
+       已跳过目标“PrepareProjectReferences”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“BuildCompileTraverse”(目标“BuildCompile”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != ''  and '' == 'true')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“BuildCompileTraverse”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“BeforeClCompile”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“BeforeClCompile”的操作。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“ComputeCLInputPDBName”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ComputeCLInputPDBName”的操作。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“ComputeReferenceCLInput”(目标“_ClCompile”依赖于它):
+       由于 false 条件，已跳过任务“WriteLinesToFile”；(('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true')计算为((''!='') and '' != 'true')。
+       由于 false 条件，已跳过任务“Message”；('$(_REFERENCE_DEBUG)'=='true')计算为(''=='true')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ComputeReferenceCLInput”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“WarnCompileDuplicatedFilename”(目标“_ClCompile”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'AIPilot_XXX.cpp' != 'AIPilot_XXX.cpp' and 'Debug\' == 'Debug\')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'CreateAndRelease.cpp' != 'CreateAndRelease.cpp' and 'Debug\' == 'Debug\')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'FlightParaDataClass.cpp' != 'FlightParaDataClass.cpp' and 'Debug\' == 'Debug\')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'FlightStrategyClass.cpp' != 'FlightStrategyClass.cpp' and 'Debug\' == 'Debug\')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“WarnCompileDuplicatedFilename”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets”中的目标“FixupCLCompileOptions”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“FixupCLCompileOptions”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“MakeDirsForCl”(目标“_ClCompile”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“MakeDirsForCl”的操作。
+       已跳过目标“_SelectedFiles”。以前的生成已成功。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+       已跳过目标“ComputeCLInputPDBName”。以前的生成已成功。
+       已跳过目标“ComputeReferenceCLInput”。以前的生成已成功。
+       已跳过目标“WarnCompileDuplicatedFilename”。以前的生成已成功。
+       已跳过目标“FixupCLCompileOptions”。以前的生成已成功。
+       已跳过目标“_SelectedFiles”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“SelectCustomBuild”(目标“SelectClCompile”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“SelectCustomBuild”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“SelectClCompile”(目标“ClCompile”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“SelectClCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“GenerateTargetFrameworkMonikerAttribute”；('$(GenerateTargetFrameworkAttribute)' == 'true')的计算结果为('false' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“ManagedIncrementalBuildPreProcessDependencyGraph”；('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')的计算结果为('AIPilot_XXX.cpp;CreateAndRelease.cpp;FlightParaDataClass.cpp;FlightStrategyClass.cpp' != '' and 'false' == 'True')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets”中的目标“ClCompile”(目标“_ClCompile”依赖于它):
+       由于 false 条件，已跳过任务“Delete”；('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName)))计算为('EditAndContinue' != '' and 'EditAndContinue' != 'None' and 'EditAndContinue' != 'OldStyle' and 'Debug\vc141.pdb' != '' and !Exists(Debug\vc141.pdb))。
+       由于 false 条件，已跳过任务“CL”；('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '')计算为('' == 'Create' and ''!='true' and '' == '')。
+       正在使用程序集“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll”中的“CL”任务。
+       任务“CL”
+         读取跟踪日志:
+         	Debug\AIPilot_TeamName.tlog\CL.read.1.tlog
+         D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\AIPILOT_XXX.CPP|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\CREATEANDRELEASE.CPP|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\FLIGHTPARADATACLASS.CPP|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\FLIGHTSTRATEGYCLASS.CPP 的输出:
+         	D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\AIPILOT_XXX.OBJ
+         	D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\CREATEANDRELEASE.OBJ
+         	D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTPARADATACLASS.OBJ
+         	D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTSTRATEGYCLASS.OBJ
+         将编译 FlightStrategyClass.cpp，因为在 2022/10/23 20:44:26 处修改了 D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\FlightStrategyClass.cpp。
+         传递给工具的环境变量为:
+           VS_UNICODE_OUTPUT=2068
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /nologo /W3 /WX- /diagnostics:classic /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D AIPILOT_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt FlightStrategyClass.cpp
+         跟踪命令:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\Debug\AIPilot_TeamName.tlog" /r "D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\FLIGHTSTRATEGYCLASS.CPP" /b MSBuildConsole_CancelEvent74f244e7eacb48b8915735fd67f72c70  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe"  /c /ZI /nologo /W3 /WX- /diagnostics:classic /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D AIPILOT_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt FlightStrategyClass.cpp
+     1>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+         FlightStrategyClass.cpp
+     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.h(5): warning C4005: “ERRORRANGE”: 宏重定义
+         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightparadataclass.h(7): note: 参见“ERRORRANGE”的前一个定义
+     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(73): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(74): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(75): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(157): warning C4305: “+=”: 从“double”到“float”截断
+       已完成执行任务“CL”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ClCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“RunSelectedFileNativeCodeAnalysis”；('$(RunCppAnalysis)'=='true' and '$(SelectedFiles)'!='')的计算结果为('false'=='true' and ''!='')。
+       由于条件的计算结果为 false，已跳过目标“ManagedIncrementalBuildPostProcessDependencyGraph”；('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')的计算结果为('AIPilot_XXX.cpp;CreateAndRelease.cpp;FlightParaDataClass.cpp;FlightStrategyClass.cpp' != '' and 'false' == 'True')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“AfterClCompile”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“AfterClCompile”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_ClCompile”(目标“_BuildCompileAction”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_ClCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“_ResGen”；('@(EmbeddedResource)'!='')的计算结果为(''!='')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“BeforeResourceCompile”(目标“_ResourceCompile”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“BeforeResourceCompile”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“MakeDirsForResourceCompile”(目标“_ResourceCompile”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“MakeDirsForResourceCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResourceCompile”；('@(ResourceCompile)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“AfterResourceCompile”(目标“_ResourceCompile”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“AfterResourceCompile”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_ResourceCompile”(目标“_BuildCompileAction”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_ResourceCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“_ImpLib”；('$(ImpLibCompiled)' == 'true')的计算结果为('' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“_Lib”；('$(LibCompiled)' == 'true')的计算结果为('' == 'true')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“AfterBuildCompileEvent”(目标“_BuildCompileAction”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“AfterBuildCompileEvent”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_BuildCompileAction”(目标“BuildCompile”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_BuildCompileAction”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“BuildCompile”(目标“Build”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“BuildCompile”的操作。
+       已跳过目标“PrepareProjectReferences”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“BuildLinkTraverse”(目标“BuildLink”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != ''  and '' == 'true')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“BuildLinkTraverse”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“ComputeLegacyManifestEmbedding”(目标“_BuildLinkAction”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true')计算为('' == 'true' and '' == 'true')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ComputeLegacyManifestEmbedding”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“BeforeLink”(目标“_Link”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“BeforeLink”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“ComputeRCOutputs”(目标“ComputeRCGeneratedLinkInputs”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ComputeRCOutputs”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“ComputeRCGeneratedLinkInputs”(目标“_Link”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ComputeRCGeneratedLinkInputs”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“ComputeManifestGeneratedLinkerInputs”(目标“_Link”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ComputeManifestGeneratedLinkerInputs”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“ComputeCustomBuildOutput”(目标“_Link”依赖于它):
+       由于 false 条件，已跳过任务“CreateItem”；('%(CustomBuildOutputs.OutputItemType)'!='')计算为(''!='')。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ComputeCustomBuildOutput”的操作。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+       已跳过目标“ComputeCLInputPDBName”。以前的生成已成功。
+       已跳过目标“ComputeReferenceCLInput”。以前的生成已成功。
+       已跳过目标“WarnCompileDuplicatedFilename”。以前的生成已成功。
+       已跳过目标“FixupCLCompileOptions”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“ComputeCLOutputs”(目标“ComputeCLGeneratedLinkInputs”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ComputeCLOutputs”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“ComputeCLGeneratedLinkInputs”(目标“_Link”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ComputeCLGeneratedLinkInputs”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“ComputeLinkInputsFromProject”(目标“_Link”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ComputeLinkInputsFromProject”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeReferenceLinkInputs”；(@(ProjectReference) != '')的计算结果为( != '')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“ComputeManifestInputsTargets”(目标“_Link”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ComputeManifestInputsTargets”的操作。
+       由于条件的计算结果为 false，已跳过目标“ManifestResourceCompile”；('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '')的计算结果为('LINK' == 'LINK' and '' != '')。
+       由于条件的计算结果为 false，已跳过目标“AssignWinFXEmbeddedResource”；('@(WinFXEmbeddedResource)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“AssignTargetPaths”(目标“PrepareResourceNames”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“AssignTargetPath”任务。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       由于 false 条件，已跳过任务“AssignTargetPath”；('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest')计算为(''=='' and ''=='.manifest')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“AssignTargetPaths”的操作。
+       已跳过目标“AssignTargetPaths”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“SplitResourcesByCulture”(目标“PrepareResourceNames”依赖于它):
+       由于 false 条件，已跳过任务“Warning”；('@(ResxWithNoCulture)'!='')计算为(''!='')。
+       由于 false 条件，已跳过任务“Warning”；('@(ResxWithCulture)'!='')计算为(''!='')。
+       由于 false 条件，已跳过任务“Warning”；('@(NonResxWithCulture)'!='')计算为(''!='')。
+       由于 false 条件，已跳过任务“Warning”；('@(NonResxWithNoCulture)'!='')计算为(''!='')。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“AssignCulture”任务。
+       任务“AssignCulture”
+       已完成执行任务“AssignCulture”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“SplitResourcesByCulture”的操作。
+       由于条件的计算结果为 false，已跳过目标“CreateManifestResourceNames”；('@(EmbeddedResource)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“CreateCustomManifestResourceNames”(目标“PrepareResourceNames”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“CreateCustomManifestResourceNames”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“PrepareResourceNames”(目标“_Link”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“PrepareResourceNames”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“MakeDirsForLink”(目标“_Link”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“MakeDirsForLink”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“DoLinkOutputFilesMatch”(目标“_Link”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('@(_OutputFileFromLink)' == '')计算为('.\Debug\AIPilot_TeamName.dll' == '')。
+       由于 false 条件，已跳过任务“VCMessage”；('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))')计算为('.\Debug\AIPilot_TeamName.dll' != '' and 'D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\Debug\AIPilot_TeamName.dll' != 'D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\Debug\AIPilot_TeamName.dll')。
+       由于 false 条件，已跳过任务“VCMessage”；('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)')计算为('.\Debug\AIPilot_TeamName.dll' != '' and '.dll' != '' and '.dll' != '.dll')。
+       由于 false 条件，已跳过任务“VCMessage”；('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)')计算为('.\Debug\AIPilot_TeamName.dll' != '' and 'AIPilot_TeamName' != '' and 'AIPilot_TeamName' != 'AIPilot_TeamName')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet'))计算为('' != '' and ('Windows' == '' or 'Windows' == 'NotSet'))。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“DoLinkOutputFilesMatch”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets”中的目标“PreLinkEvent”(目标“_Link”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '')计算为('' != '' and '' != '')。
+       由于 false 条件，已跳过任务“Exec”；('%(PreLinkEvent.Command)' != '')计算为('' != '')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“PreLinkEvent”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets”中的目标“ComputeLinkSwitches”(目标“Link”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ComputeLinkSwitches”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets”中的目标“Link”(目标“_Link”依赖于它):
+       正在使用程序集“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll”中的“Link”任务。
+       任务“Link”
+         写入跟踪日志:
+         	Debug\AIPilot_TeamName.tlog\link.write.1.tlog
+         读取跟踪日志:
+         	Debug\AIPilot_TeamName.tlog\link.read.1.tlog
+         D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\AIPILOT_XXX.OBJ|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\CREATEANDRELEASE.OBJ|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTPARADATACLASS.OBJ|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTSTRATEGYCLASS.OBJ 的输出:
+         	D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\AIPILOT_TEAMNAME.DLL
+         	D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\AIPILOT_TEAMNAME.ILK
+         	D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\AIPILOT_TEAMNAME.PDB
+         D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\AIPILOT_XXX.OBJ|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\CREATEANDRELEASE.OBJ|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTPARADATACLASS.OBJ|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTSTRATEGYCLASS.OBJ 的输入:
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\KERNEL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\USER32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\GDI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\WINSPOOL.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\COMDLG32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\ADVAPI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\SHELL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\OLE32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\OLEAUT32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\UUID.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\ODBC32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\ODBCCP32.LIB
+         	D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\AIPILOT_XXX.OBJ
+         	D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\CREATEANDRELEASE.OBJ
+         	D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTPARADATACLASS.OBJ
+         	D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTSTRATEGYCLASS.OBJ
+         	C:\WINDOWS\SYSTEM32\TZRES.DLL
+         	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\PROFESSIONAL\VC\TOOLS\MSVC\14.16.27023\LIB\X86\MSVCPRTD.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\WS2_32.LIB
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\PROFESSIONAL\VC\TOOLS\MSVC\14.16.27023\LIB\X86\MSVCRTD.LIB
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\PROFESSIONAL\VC\TOOLS\MSVC\14.16.27023\LIB\X86\OLDNAMES.LIB
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\PROFESSIONAL\VC\TOOLS\MSVC\14.16.27023\LIB\X86\VCRUNTIMED.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UCRT\X86\UCRTD.LIB
+         需要编译源: 输入 D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTSTRATEGYCLASS.OBJ 比输出 D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\AIPILOT_TEAMNAME.PDB 新。
+         传递给工具的环境变量为:
+           VS_UNICODE_OUTPUT=2064
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\AIPilot_TeamName.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\AIPilot_TeamName.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\AIPilot_TeamName.lib" /MACHINE:X86 /SAFESEH /DLL Debug\AIPilot_XXX.obj
+         Debug\CreateAndRelease.obj
+         Debug\FlightParaDataClass.obj
+         Debug\FlightStrategyClass.obj
+         跟踪命令:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\Debug\AIPilot_TeamName.tlog" /r "D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\AIPILOT_XXX.OBJ|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\CREATEANDRELEASE.OBJ|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTPARADATACLASS.OBJ|D:\FILES\GIT\项目经历\战斗机\1012\AIPILOT_TEAMNAME\AIPILOT_TEAMNAME\AIPILOT\DEBUG\FLIGHTSTRATEGYCLASS.OBJ" /b MSBuildConsole_CancelEvent895595480db144c889b1b658bfe8c70e  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:".\Debug\AIPilot_TeamName.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\AIPilot_TeamName.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\AIPilot_TeamName.lib" /MACHINE:X86 /SAFESEH /DLL Debug\AIPilot_XXX.obj
+         Debug\CreateAndRelease.obj
+         Debug\FlightParaDataClass.obj
+         Debug\FlightStrategyClass.obj
+       已完成执行任务“Link”的操作。
+       任务“Message”
+         AIPilot.vcxproj -> D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\.\Debug\AIPilot_TeamName.dll
+       已完成执行任务“Message”的操作。
+       由于 false 条件，已跳过任务“VCMessage”；(('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
+                    %(Link.GenerateDebugInformation) == 'DebugFastLink' and %(Link.ProgramDataBaseFileName) != '')计算为(('LINK' != 'LINK' or '' != 'true' or 'False' == 'true') and
+                    true == 'DebugFastLink' and  != '')。
+       由于 false 条件，已跳过任务“VCMessage”；(('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
+                    %(Link.GenerateDebugInformation) == 'true' and %(Link.ProgramDataBaseFileName) != '')计算为(('LINK' != 'LINK' or '' != 'true' or 'False' == 'true') and
+                    true == 'true' and  != '')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“Link”的操作。
+       由于条件的计算结果为 false，已跳过目标“MetaGenInputsOutputs”；('$(EnableManagedIncrementalBuild)' == 'True')的计算结果为('false' == 'True')。
+       由于条件的计算结果为 false，已跳过目标“ComputeMetaGenInputs”；('$(CLRSupport)'!='' and '$(CLRSupport)'!='false')的计算结果为('false'!='' and 'false'!='false')。
+       由于条件的计算结果为 false，已跳过目标“MetaGen”；('@(MetaGen)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“ComputeLinkImportLibraryOutputsForClean”(目标“_Link”依赖于它):
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ComputeLinkImportLibraryOutputsForClean”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“AfterLink”(目标“_Link”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“AfterLink”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_Link”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_Link”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_ALink”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_ALink”的操作。
+       已跳过目标“ComputeLegacyManifestEmbedding”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_Manifest”(目标“_BuildLinkAction”依赖于它):
+       由于 false 条件，已跳过任务“CallTarget”；('$(LegacyManifestEmbedding)' == 'true')计算为('' == 'true')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_Manifest”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets”中的目标“RegisterOutput”(目标“_BuildLinkAction”依赖于它):
+       由于 false 条件，已跳过任务“Exec”；('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true')计算为('DynamicLibrary'=='DynamicLibrary' and 'false'=='true' and 'false'!='true')。
+       由于 false 条件，已跳过任务“Exec”；('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true')计算为('DynamicLibrary'=='DynamicLibrary' and 'false'=='true' and 'false'=='true')。
+       由于 false 条件，已跳过任务“Exec”；('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true')计算为('DynamicLibrary'=='Application' and 'false'=='true' and 'false'!='true')。
+       由于 false 条件，已跳过任务“Exec”；('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true')计算为('DynamicLibrary'=='Application' and 'false'=='true' and 'false'=='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0')计算为('' != '' and '' != '0')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“RegisterOutput”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“ResolvedXDCMake”(目标“_XdcMake”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true')计算为('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ResolvedXDCMake”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“ComputeCLCompileGeneratedXDCFiles”(目标“_XdcMake”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ComputeCLCompileGeneratedXDCFiles”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“MakeDirsForXdcMake”(目标“_XdcMake”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“MakeDirsForXdcMake”的操作。
+       由于条件的计算结果为 false，已跳过目标“XdcMake”；('@(XdcMake)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_XdcMake”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_XdcMake”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“ComputeCLCompileGeneratedSbrFiles”(目标“_BscMake”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“ComputeCLCompileGeneratedSbrFiles”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“MakeDirsForBscMake”(目标“_BscMake”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“MakeDirsForBscMake”的操作。
+       由于条件的计算结果为 false，已跳过目标“BscMake”；('@(BscMake)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“CustomBuildStep”；('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='')的计算结果为('' != '' and ''=='')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_BscMake”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_BscMake”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“_GenerateSatelliteAssemblyInputs”(目标“CreateSatelliteAssemblies”依赖于它):
+       由于 false 条件，已跳过任务“Warning”；('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='')计算为(''!='' and ''=='')。
+       由于 false 条件，已跳过任务“Warning”；('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='')计算为(''!='' and ''=='')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_GenerateSatelliteAssemblyInputs”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeIntermediateSatelliteAssemblies”；(@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '')的计算结果为( != '')。
+       由于条件的计算结果为 false，已跳过目标“GenerateSatelliteAssemblies”；('@(_SatelliteAssemblyResourceInputs)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“CreateSatelliteAssemblies”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“CreateSatelliteAssemblies”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_Appverifier”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_Appverifier”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_Deploy”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_Deploy”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeIntermediateSatelliteAssemblies”；(@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '')的计算结果为( != '')。
+       由于条件的计算结果为 false，已跳过目标“_CopyFilesMarkedCopyLocal”；('@(ReferenceCopyLocalPaths)' != '')的计算结果为('' != '')。
+       已跳过目标“AssignTargetPaths”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+       已跳过目标“_GetProjectReferenceTargetFrameworkProperties”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets”中的目标“GetCopyToOutputDirectoryXamlAppDefs”(目标“GetCopyToOutputDirectoryItems”依赖于它):
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“GetCopyToOutputDirectoryXamlAppDefs”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“GetCopyToOutputDirectoryItems”(目标“_CopySourceItemsToOutputDirectory”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true')计算为('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true')。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“GetCopyToOutputDirectoryItems”的操作。
+       由于条件的计算结果为 false，已跳过目标“_CopyOutOfDateSourceItemsToOutputDirectory”；( '@(_SourceItemsToCopyToOutputDirectory)' != '' )的计算结果为( '' != '' )。
+       由于条件的计算结果为 false，已跳过目标“_CopyOutOfDateSourceItemsToOutputDirectoryAlways”；( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' )的计算结果为( '' != '' )。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“_CopySourceItemsToOutputDirectory”(目标“CopyFilesToOutputDirectory”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_CopySourceItemsToOutputDirectory”的操作。
+       由于条件的计算结果为 false，已跳过目标“_CopyAppConfigFile”；( '@(AppConfigWithTargetPath)' != '' )的计算结果为( '' != '' )。
+       由于条件的计算结果为 false，已跳过目标“_CopyManifestFiles”；( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' )的计算结果为( ''=='true' or ''=='true' )。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“_CheckForCompileOutputs”(目标“CopyFilesToOutputDirectory”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_CheckForCompileOutputs”的操作。
+       由于条件的计算结果为 false，已跳过目标“_SGenCheckForOutputs”；('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto'))的计算结果为('Off' == 'On' or (''!='' and 'Off' == 'Auto'))。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“CopyFilesToOutputDirectory”(目标“PrepareForRun”依赖于它):
+       由于 false 条件，已跳过任务“Copy”；('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true')计算为('true' == 'true' and 'true' != 'true')。
+       由于 false 条件，已跳过任务“CopyRefAssembly”；('$(ProduceReferenceAssembly)' == 'true' and '$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true')计算为('false' == 'true' and 'true' == 'true' and 'true' != 'true')。
+       由于 false 条件，已跳过任务“Message”；('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true')计算为('true' == 'true' and 'true'!='true')。
+       由于 false 条件，已跳过任务“Copy”；('@(AddModules)' != '')计算为('' != '')。
+       由于 false 条件，已跳过任务“Copy”；('$(_SGenDllCreated)'=='true')计算为('false'=='true')。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Copy”任务。
+       任务“Copy”
+         未从文件“Debug\AIPilot_TeamName.pdb”复制到文件“.\Debug\AIPilot_TeamName.pdb”，因为“SkipUnchangedFiles”参数在项目中设置为“true”，而两个文件的大小及时间戳一致。
+       已完成执行任务“Copy”的操作。
+       由于 false 条件，已跳过任务“Copy”；('$(_DocumentationFileProduced)'=='true')计算为('false'=='true')。
+       由于 false 条件，已跳过任务“Copy”；('@(IntermediateSatelliteAssembliesWithTargetPath)' != '')计算为('' != '')。
+       由于 false 条件，已跳过任务“Copy”；('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' )计算为('' != '' or '' != '' or '' != '' or '' != '' )。
+       由于 false 条件，已跳过任务“Copy”；('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '')计算为('' != 'true' and '' != '')。
+       由于 false 条件，已跳过任务“Message”；('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '')计算为('' != 'true' and '' != '')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“CopyFilesToOutputDirectory”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“PrepareForRun”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“PrepareForRun”的操作。
+       由于条件的计算结果为 false，已跳过目标“CustomBuildStep”；('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='')的计算结果为('' != '' and ''=='')。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets”中的目标“PostBuildEvent”(目标“_BuildLinkAction”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '')计算为('' != '' and '' != '')。
+       由于 false 条件，已跳过任务“Exec”；('%(PostBuildEvent.Command)' != '')计算为('' != '')。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“PostBuildEvent”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_BuildLinkAction”(目标“BuildLink”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“_BuildLinkAction”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“BuildLink”(目标“Build”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“BuildLink”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets”中的目标“AfterBuild”(目标“Build”依赖于它):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“AfterBuild”的操作。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“FinalizeBuildStatus”(目标“Build”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Delete”任务。
+       任务“Delete”
+         正在删除文件“Debug\AIPilot_TeamName.tlog\unsuccessfulbuild”。
+       已完成执行任务“Delete”的操作。
+       任务“Touch”
+         正在对“Debug\AIPilot_TeamName.tlog\AIPilot_TeamName.lastbuildstate”执行 Touch 任务。
+       已完成执行任务“Touch”的操作。
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“FinalizeBuildStatus”的操作。
+       已跳过目标“_CheckForInvalidConfigurationAndPlatform”。以前的生成已成功。
+       已跳过目标“_CheckForInvalidConfigurationAndPlatform”。以前的生成已成功。
+     1>来自项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets”中的目标“Build”(入口点):
+     1>已完成在项目“AIPilot.vcxproj”中生成目标“Build”的操作。
+     1>已完成生成项目“D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+       “D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”(Build 目标) (1) ->
+       (PrepareForBuild 目标) -> 
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+
+
+       “D:\Files\git\项目经历\战斗机\1012\AIPilot_TeamName\AIPilot_TeamName\AIPilot\AIPilot.vcxproj”(Build 目标) (1) ->
+       (ClCompile 目标) -> 
+         cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.h(5): warning C4005: “ERRORRANGE”: 宏重定义
+         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(73): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(74): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(75): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+         d:\files\git\项目经历\战斗机\1012\aipilot_teamname\aipilot_teamname\aipilot\flightstrategyclass.cpp(157): warning C4305: “+=”: 从“double”到“float”截断
+
+    7 个警告
+    0 个错误
+
+已用时间 00:00:01.06
