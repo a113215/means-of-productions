@@ -22,3 +22,13 @@ $ git push origin master
 2.如果已经克隆完的项目，忘记加参数--recursive，也可以在克隆完后手动运行下面命令
  git submodule update --init --recursive
 ```
+
+#### git删除某个文件
+
+```
+1.先更新本地至最新git pull。
+2.git rm 文件名
+3.git commit -m "说明" //提交到本地仓库
+4.git push //将操作推送到远程仓库
+```
+
